@@ -1,0 +1,785 @@
+@inproceedings{liu-2022-low,
+    title = "Low-Resource Neural Machine Translation: A Case Study of {C}antonese",
+    author = "Liu, Evelyn Kai-Yan",
+    booktitle = "Proceedings of the Ninth Workshop on NLP for Similar Languages, Varieties and Dialects",
+    month = oct,
+    year = "2022",
+    address = "Gyeongju, Republic of Korea",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.vardial-1.4",
+    pages = "28--40",
+    abstract = "The development of Natural Language Processing (NLP) applications for Cantonese, a language with over 85 million speakers, is lagging compared to other languages with a similar number of speakers. In this paper, we present, to our best knowledge, the first benchmark of multiple neural machine translation (NMT) systems from Mandarin Chinese to Cantonese. Additionally, we performed parallel sentence mining (PSM) as data augmentation for the extremely low resource language pair and increased the number of sentence pairs from 1,002 to 35,877. Results show that with PSM, the best performing model (BPE-level bidirectional LSTM) scored 11.98 BLEU better than the vanilla baseline and 9.93 BLEU higher than our strong baseline. Our unsupervised NMT (UNMT) results also refuted previous assumption n (Rubino et al., 2020) that the poor performance was related to the lack of linguistic similarities between the target and source languages, particularly in the case of Cantonese and Mandarin. In the process of building the NMT system, we also created the first large-scale parallel training and evaluation datasets of the language pair. Codes and datasets are publicly available at https://github.com/evelynkyl/yue{\_}nmt.",
+}
+@inproceedings{sio-morgado-da-costa-2022-enriching,
+    title = "Enriching Linguistic Representation in the {C}antonese {W}ordnet and Building the New {C}antonese {W}ordnet Corpus",
+    author = "Sio, Ut Seong  and
+      Morgado da Costa, Lu{\'\i}s",
+    booktitle = "Proceedings of the Thirteenth Language Resources and Evaluation Conference",
+    month = jun,
+    year = "2022",
+    address = "Marseille, France",
+    publisher = "European Language Resources Association",
+    url = "https://aclanthology.org/2022.lrec-1.8",
+    pages = "70--78",
+    abstract = "This paper reports on the most recent improvements on the Cantonese Wordnet, a wordnet project started in 2019 (Sio and Morgado da Costa, 2019) with the aim of capturing and organizing lexico-semantic information of Hong Kong Cantonese. The improvements we present here extend both the breadth and depth of the Cantonese Wordnet: increasing the general coverage, adding functional categories, enriching verbal representations, as well as creating the Cantonese Wordnet Corpus {--} a corpus of handcrafted examples where individual senses are shown in context.",
+}
+@inproceedings{jones-etal-2022-wecantalk,
+    title = "{W}e{C}an{T}alk: A New Multi-language, Multi-modal Resource for Speaker Recognition",
+    author = "Jones, Karen  and
+      Walker, Kevin  and
+      Caruso, Christopher  and
+      Wright, Jonathan  and
+      Strassel, Stephanie",
+    booktitle = "Proceedings of the Thirteenth Language Resources and Evaluation Conference",
+    month = jun,
+    year = "2022",
+    address = "Marseille, France",
+    publisher = "European Language Resources Association",
+    url = "https://aclanthology.org/2022.lrec-1.369",
+    pages = "3451--3456",
+    abstract = "The WeCanTalk (WCT) Corpus is a new multi-language, multi-modal resource for speaker recognition. The corpus contains Cantonese, Mandarin and English telephony and video speech data from over 200 multilingual speakers located in Hong Kong. Each speaker contributed at least 10 telephone conversations of 8-10 minutes{'} duration collected via a custom telephone platform based in Hong Kong. Speakers also uploaded at least 3 videos in which they were both speaking and visible, along with one selfie image. At least half of the calls and videos for each speaker were in Cantonese, while their remaining recordings featured one or more different languages. Both calls and videos were made in a variety of noise conditions. All speech and video recordings were audited by experienced multilingual annotators for quality including presence of the expected language and for speaker identity. The WeCanTalk Corpus has been used to support the NIST 2021 Speaker Recognition Evaluation and will be published in the LDC catalog.",
+}
+@inproceedings{lee-etal-2022-corpus,
+    title = "A Corpus of Simulated Counselling Sessions with Dialog Act Annotation",
+    author = "Lee, John  and
+      Fong, Haley  and
+      Wong, Lai Shuen Judy  and
+      Mak, Chun Chung  and
+      Yip, Chi Hin  and
+      Ng, Ching Wah Larry",
+    booktitle = "Proceedings of the Thirteenth Language Resources and Evaluation Conference",
+    month = jun,
+    year = "2022",
+    address = "Marseille, France",
+    publisher = "European Language Resources Association",
+    url = "https://aclanthology.org/2022.lrec-1.615",
+    pages = "5723--5730",
+    abstract = "We present a corpus of simulated counselling sessions consisting of speech- and text-based dialogs in Cantonese. Consisting of 152K Chinese characters, the corpus labels the dialog act of both client and counsellor utterances, segments each dialog into stages, and identifies the forward and backward links in the dialog. We analyze the distribution of client and counsellor communicative intentions in the various stages, and discuss significant patterns of the dialog flow.",
+}
+@inproceedings{yu-etal-2022-automatic,
+    title = "Automatic Speech Recognition Datasets in {C}antonese: A Survey and New Dataset",
+    author = "Yu, Tiezheng  and
+      Frieske, Rita  and
+      Xu, Peng  and
+      Cahyawijaya, Samuel  and
+      Yiu, Cheuk Tung  and
+      Lovenia, Holy  and
+      Dai, Wenliang  and
+      Barezi, Elham J.  and
+      Chen, Qifeng  and
+      Ma, Xiaojuan  and
+      Shi, Bertram  and
+      Fung, Pascale",
+    booktitle = "Proceedings of the Thirteenth Language Resources and Evaluation Conference",
+    month = jun,
+    year = "2022",
+    address = "Marseille, France",
+    publisher = "European Language Resources Association",
+    url = "https://aclanthology.org/2022.lrec-1.696",
+    pages = "6487--6494",
+    abstract = "Automatic speech recognition (ASR) on low resource languages improves the access of linguistic minorities to technological advantages provided by artificial intelligence (AI). In this paper, we address the problem of data scarcity for the Hong Kong Cantonese language by creating a new Cantonese dataset. Our dataset, Multi-Domain Cantonese Corpus (MDCC), consists of 73.6 hours of clean read speech paired with transcripts, collected from Cantonese audiobooks from Hong Kong. It comprises philosophy, politics, education, culture, lifestyle and family domains, covering a wide range of topics. We also review all existing Cantonese datasets and analyze them according to their speech type, data source, total size and availability. We further conduct experiments with Fairseq S2T Transformer, a state-of-the-art ASR model, on the biggest existing dataset, Common Voice zh-HK, and our proposed MDCC, and the results show the effectiveness of our dataset. In addition, we create a powerful and robust Cantonese ASR model by applying multi-dataset learning on MDCC and Common Voice zh-HK.",
+}
+@inproceedings{lee-etal-2022-pycantonese,
+    title = "{P}y{C}antonese: {C}antonese Linguistics and {NLP} in Python",
+    author = "Lee, Jackson  and
+      Chen, Litong  and
+      Lam, Charles  and
+      Lau, Chaak Ming  and
+      Tsui, Tsz-Him",
+    booktitle = "Proceedings of the Thirteenth Language Resources and Evaluation Conference",
+    month = jun,
+    year = "2022",
+    address = "Marseille, France",
+    publisher = "European Language Resources Association",
+    url = "https://aclanthology.org/2022.lrec-1.711",
+    pages = "6607--6611",
+    abstract = "This paper introduces PyCantonese, an open-source Python library for Cantonese linguistics and natural language processing. After the library design, implementation, corpus data format, and key datasets included are introduced, the paper provides an overview of the currently implemented functionality: stop words, handling Jyutping romanization, word segmentation, part-of-speech tagging, and parsing Cantonese text.",
+}
+@inproceedings{dai-etal-2022-ci,
+    title = "{CI}-{AVSR}: A {C}antonese Audio-Visual Speech Datasetfor In-car Command Recognition",
+    author = "Dai, Wenliang  and
+      Cahyawijaya, Samuel  and
+      Yu, Tiezheng  and
+      Barezi, Elham J.  and
+      Xu, Peng  and
+      Yiu, Cheuk Tung  and
+      Frieske, Rita  and
+      Lovenia, Holy  and
+      Winata, Genta  and
+      Chen, Qifeng  and
+      Ma, Xiaojuan  and
+      Shi, Bertram  and
+      Fung, Pascale",
+    booktitle = "Proceedings of the Thirteenth Language Resources and Evaluation Conference",
+    month = jun,
+    year = "2022",
+    address = "Marseille, France",
+    publisher = "European Language Resources Association",
+    url = "https://aclanthology.org/2022.lrec-1.731",
+    pages = "6786--6793",
+    abstract = "With the rise of deep learning and intelligent vehicles, the smart assistant has become an essential in-car component to facilitate driving and provide extra functionalities. In-car smart assistants should be able to process general as well as car-related commands and perform corresponding actions, which eases driving and improves safety. However, there is a data scarcity issue for low resource languages, hindering the development of research and applications. In this paper, we introduce a new dataset, Cantonese In-car Audio-Visual Speech Recognition (CI-AVSR), for in-car command recognition in the Cantonese language with both video and audio data. It consists of 4,984 samples (8.3 hours) of 200 in-car commands recorded by 30 native Cantonese speakers. Furthermore, we augment our dataset using common in-car background noises to simulate real environments, producing a dataset 10 times larger than the collected one. We provide detailed statistics of both the clean and the augmented versions of our dataset. Moreover, we implement two multimodal baselines to demonstrate the validity of CI-AVSR. Experiment results show that leveraging the visual signal improves the overall performance of the model. Although our best model can achieve a considerable quality on the clean test set, the speech recognition quality on the noisy data is still inferior and remains an extremely challenging task for real in-car speech recognition systems. The dataset and code will be released at https://github.com/HLTCHKUST/CI-AVSR.",
+}
+@inproceedings{kali-kodner-2022-language,
+    title = "Language Acquisition, Neutral Change, and Diachronic Trends in Noun Classifiers",
+    author = "Kali, Aniket  and
+      Kodner, Jordan",
+    booktitle = "Proceedings of the 3rd Workshop on Computational Approaches to Historical Language Change",
+    month = may,
+    year = "2022",
+    address = "Dublin, Ireland",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.lchange-1.2",
+    doi = "10.18653/v1/2022.lchange-1.2",
+    pages = "11--22",
+    abstract = "Languages around the world employ classifier systems as a method of semantic organization and categorization. These systems are rife with variability, violability, and ambiguity, and are prone to constant change over time. We explicitly model change in classifier systems as the population-level outcome of child language acquisition over time in order to shed light on the factors that drive change to classifier systems. Our research consists of two parts: a contrastive corpus study of Cantonese and Mandarin child-directed speech to determine the role that ambiguity and homophony avoidance may play in classifier learning and change followed by a series of population-level learning simulations of an abstract classifier system. We find that acquisition without reference to ambiguity avoidance is sufficient to drive broad trends in classifier change and suggest an additional role for adults and discourse factors in classifier death.",
+}
+@inproceedings{lau-etal-2022-words,
+    title = "Words.hk: A Comprehensive {C}antonese Dictionary Dataset with Definitions, Translations and Transliterated Examples",
+    author = "Lau, Chaak-ming  and
+      Chan, Grace Wing-yan  and
+      Tse, Raymond Ka-wai  and
+      Chan, Lilian Suet-ying",
+    booktitle = "Proceedings of the Workshop on Dataset Creation for Lower-Resourced Languages within the 13th Language Resources and Evaluation Conference",
+    month = jun,
+    year = "2022",
+    address = "Marseille, France",
+    publisher = "European Language Resources Association",
+    url = "https://aclanthology.org/2022.dclrl-1.7",
+    pages = "53--62",
+    abstract = "This paper discusses the compilation of the words.hk Cantonese dictionary dataset, which was compiled through manual annotation over a period of 7 years. Cantonese is a low-resource language with limited tagged or manually checked resources, especially at the sentential level, and this dataset is an attempt to fill the gap. The dataset contains over 53,000 entries of Cantonese words, which comes with basic lexical information (Jyutping phonemic transcription, part-of-speech tags, usage tags), manually crafted definitions in Written Cantonese, English translations, and Cantonese examples with English translation and Jyutping transliterations. Special attention has been paid to handle character variants, so that unintended {``}character errors{''} (equivalent to typos in phonemic writing systems) are filtered out, and intra-speaker variants are handled. Fine details on word segmentation, character variant handling, definition crafting will be discussed. The dataset can be used in a wide range of natural language processing tasks, such as word segmentation, construction of semantic web and training of models for Cantonese transliteration.",
+}
+@inproceedings{xiang-etal-2022-cantonese,
+    title = "When {C}antonese {NLP} Meets Pre-training: Progress and Challenges",
+    author = "Xiang, Rong  and
+      Tan, Hanzhuo  and
+      Li, Jing  and
+      Wan, Mingyu  and
+      Wong, Kam-Fai",
+    booktitle = "Proceedings of the 2nd Conference of the Asia-Pacific Chapter of the Association for Computational Linguistics and the 12th International Joint Conference on Natural Language Processing: Tutorial Abstracts",
+    month = nov,
+    year = "2022",
+    address = "Taipei",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.aacl-tutorials.3",
+    pages = "16--21",
+    abstract = "Cantonese is an influential Chinese variant with a large population of speakers worldwide. However, it is under-resourced in terms of the data scale and diversity, excluding Cantonese Natural Language Processing (NLP) from the stateof-the-art (SOTA) {``}pre-training and fine-tuning{''} paradigm. This tutorial will start with a substantially review of the linguistics and NLP progress for shaping language specificity, resources, and methodologies. It will be followed by an introduction to the trendy transformerbased pre-training methods, which have been largely advancing the SOTA performance of a wide range of downstream NLP tasks in numerous majority languages (e.g., English and Chinese). Based on the above, we will present the main challenges for Cantonese NLP in relation to Cantonese language idiosyncrasies of colloquialism and multilingualism, followed by the future directions to line NLP for Cantonese and other low-resource languages up to the cutting-edge pre-training practice.",
+}
+@inproceedings{kirby-2021-incorporating,
+    title = "Incorporating tone in the calculation of phonotactic probability",
+    author = "Kirby, James",
+    booktitle = "Proceedings of the 18th SIGMORPHON Workshop on Computational Research in Phonetics, Phonology, and Morphology",
+    month = aug,
+    year = "2021",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2021.sigmorphon-1.4",
+    doi = "10.18653/v1/2021.sigmorphon-1.4",
+    pages = "32--38",
+    abstract = "This paper investigates how the ordering of tone relative to the segmental string influences the calculation of phonotactic probability. Trigram and recurrent neural network models were trained on syllable lexicons of four Asian syllable-tone languages (Mandarin, Thai, Vietnamese, and Cantonese) in which tone was treated as a segment occurring in different positions in the string. For trigram models, the optimal permutation interacted with language, while neural network models were relatively unaffected by tone position in all languages. In addition to providing a baseline for future evaluation, these results suggest that phonotactic probability is robust to choices of how tone is ordered with respect to other elements in the syllable.",
+}
+@inproceedings{li-lee-2021-syntactic,
+    title = "Syntactic Distribution of the Semantic Classes of Dative Verbs in {E}nglish and {C}antonese: A Crosslinguistic Perspective",
+    author = "Li, Ziying  and
+      Lee, Hanjung",
+    booktitle = "Proceedings of the 35th Pacific Asia Conference on Language, Information and Computation",
+    month = "11",
+    year = "2021",
+    address = "Shanghai, China",
+    publisher = "Association for Computational Lingustics",
+    url = "https://aclanthology.org/2021.paclic-1.66",
+    pages = "628--639",
+}
+@inproceedings{lee-etal-2021-restatement,
+    title = "Restatement and Question Generation for Counsellor Chatbot",
+    author = "Lee, John  and
+      Liang, Baikun  and
+      Fong, Haley",
+    booktitle = "Proceedings of the 1st Workshop on NLP for Positive Impact",
+    month = aug,
+    year = "2021",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2021.nlp4posimpact-1.1",
+    doi = "10.18653/v1/2021.nlp4posimpact-1.1",
+    pages = "1--7",
+    abstract = "Amidst rising mental health needs in society, virtual agents are increasingly deployed in counselling. In order to give pertinent advice, counsellors must first gain an understanding of the issues at hand by eliciting sharing from the counsellee. It is thus important for the counsellor chatbot to encourage the user to open up and talk. One way to sustain the conversation flow is to acknowledge the counsellee{'}s key points by restating them, or probing them further with questions. This paper applies models from two closely related NLP tasks {---} summarization and question generation {---} to restatement and question generation in the counselling context. We conducted experiments on a manually annotated dataset of Cantonese post-reply pairs on topics related to loneliness, academic anxiety and test anxiety. We obtained the best performance in both restatement and question generation by fine-tuning BertSum, a state-of-the-art summarization model, with the in-domain manual dataset augmented with a large-scale, automatically mined open-domain dataset.",
+}
+@inproceedings{lee-etal-2020-counselling,
+    title = "A Counselling Corpus in {C}antonese",
+    author = "Lee, John  and
+      Cai, Tianyuan  and
+      Xie, Wenxiu  and
+      Xing, Lam",
+    booktitle = "Proceedings of the 1st Joint Workshop on Spoken Language Technologies for Under-resourced languages (SLTU) and Collaboration and Computing for Under-Resourced Languages (CCURL)",
+    month = may,
+    year = "2020",
+    address = "Marseille, France",
+    publisher = "European Language Resources association",
+    url = "https://aclanthology.org/2020.sltu-1.50",
+    pages = "358--361",
+    abstract = "Virtual agents are increasingly used for delivering health information in general, and mental health assistance in particular. This paper presents a corpus designed for training a virtual counsellor in Cantonese, a variety of Chinese. The corpus consists of a domain-independent subcorpus that supports small talk for rapport building with users, and a domain-specific subcorpus that provides material for a particular area of counselling. The former consists of ELIZA style responses, chitchat expressions, and a dataset of general dialog, all of which are reusable across counselling domains. The latter consists of example user inputs and appropriate chatbot replies relevant to the specific domain. In a case study, we created a chatbot with a domain-specific subcorpus that addressed 25 issues in test anxiety, with 436 inputs solicited from native speakers of Cantonese and 150 chatbot replies harvested from mental health websites. Preliminary evaluations show that Word Mover{'}s Distance achieved 56{\%} accuracy in identifying the issue in user input, outperforming a number of baselines.",
+    language = "English",
+    ISBN = "979-10-95546-35-1",
+}
+@inproceedings{li-etal-2020-representation,
+    title = "Representation Learning for Discovering Phonemic Tone Contours",
+    author = "Li, Bai  and
+      Xie, Jing Yi  and
+      Rudzicz, Frank",
+    booktitle = "Proceedings of the 17th SIGMORPHON Workshop on Computational Research in Phonetics, Phonology, and Morphology",
+    month = jul,
+    year = "2020",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2020.sigmorphon-1.26",
+    doi = "10.18653/v1/2020.sigmorphon-1.26",
+    pages = "217--223",
+    abstract = "Tone is a prosodic feature used to distinguish words in many languages, some of which are endangered and scarcely documented. In this work, we use unsupervised representation learning to identify probable clusters of syllables that share the same phonemic tone. Our method extracts the pitch for each syllable, then trains a convolutional autoencoder to learn a low-dimensional representation for each contour. We then apply the mean shift algorithm to cluster tones in high-density regions of the latent space. Furthermore, by feeding the centers of each cluster into the decoder, we produce a prototypical contour that represents each cluster. We apply this method to spoken multi-syllable words in Mandarin Chinese and Cantonese and evaluate how closely our clusters match the ground truth tone categories. Finally, we discuss some difficulties with our approach, including contextual tone variation and allophony effects.",
+}
+@inproceedings{lam-2020-forms,
+    title = "Forms and Meanings of Lexical Reduplications in {C}antonese: a corpus study",
+    author = "Lam, Charles",
+    booktitle = "Proceedings of the 34th Pacific Asia Conference on Language, Information and Computation",
+    month = oct,
+    year = "2020",
+    address = "Hanoi, Vietnam",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2020.paclic-1.64",
+    pages = "562--567",
+}
+@inproceedings{winterstein-etal-2020-cantomap,
+    title = "{C}anto{M}ap: a {H}ong {K}ong {C}antonese {M}ap{T}ask Corpus",
+    author = "Winterstein, Gr{\'e}goire  and
+      Tang, Carmen  and
+      Lai, Regine",
+    booktitle = "Proceedings of the Twelfth Language Resources and Evaluation Conference",
+    month = may,
+    year = "2020",
+    address = "Marseille, France",
+    publisher = "European Language Resources Association",
+    url = "https://aclanthology.org/2020.lrec-1.355",
+    pages = "2906--2913",
+    abstract = "This work reports on the construction of a corpus of connected spoken Hong Kong Cantonese. The corpus aims at providing an additional resource for the study of modern (Hong Kong) Cantonese and also involves several controlled elicitation tasks which will serve different projects related to the phonology and semantics of Cantonese. The word-segmented corpus offers recordings, phonemic transcription, and Chinese characters transcription. The corpus contains a total of 768 minutes of recordings and transcripts of forty speakers. All the audio material has been aligned at utterance level with the transcriptions, using the ELAN transcription and annotation tool. The controlled elicitation task was based on the design of HCRC MapTask corpus (Anderson et al., 1991), in which participants had to communicate using solely verbal means as eye contact was restricted. In this paper, we outline the design of the maps and their landmarks and the basic segmentation principles of the data and various transcription conventions we adopted. We also compare the contents of Cantomap to those of comparable Cantonese corpora.",
+    language = "English",
+    ISBN = "979-10-95546-34-4",
+}
+@inproceedings{lai-winterstein-2020-cifu,
+    title = "{C}ifu: a Frequency Lexicon of {H}ong {K}ong {C}antonese",
+    author = "Lai, Regine  and
+      Winterstein, Gr{\'e}goire",
+    booktitle = "Proceedings of the Twelfth Language Resources and Evaluation Conference",
+    month = may,
+    year = "2020",
+    address = "Marseille, France",
+    publisher = "European Language Resources Association",
+    url = "https://aclanthology.org/2020.lrec-1.375",
+    pages = "3069--3077",
+    abstract = "This paper introduces Cifu, a lexical database for Hong Kong Cantonese (HKC) that offers phonological and orthographic information, frequency measures, and lexical neighborhood information for lexical items in HKC. Cifu is of use for NLP applications and the design and analysis of psycholinguistics experiments on HKC. We elaborate on the characteristics and challenges specific to HKC that were relevant in the design of Cifu. This includes lexical, orthographic and phonological aspects of HKC, word segmentation issues, the place of HKC in written media, and the availability of data. We discuss the measure of Neighborhood Density (ND), highlighting how the analytic nature of Cantonese and its writing system affect that measure. We justify using six different variations of ND, based on the possibility of inserting or deleting phonemes when searching for neighbors and on the choice of data for retrieving frequencies. Statistics about the four genres (written, adult spoken, children spoken and child-directed) within the dataset are discussed. We find that the lexical diversity of the child-directed speech genre is particularly low, compared to a size-matched written corpus. The correlations of word frequencies of different genres are all high, but in generally decrease as word length increases.",
+    language = "English",
+    ISBN = "979-10-95546-34-4",
+}
+@inproceedings{johnson-etal-2020-spice,
+    title = "{S}pi{CE}: A New Open-Access Corpus of Conversational Bilingual Speech in {C}antonese and {E}nglish",
+    author = "Johnson, Khia A.  and
+      Babel, Molly  and
+      Fong, Ivan  and
+      Yiu, Nancy",
+    booktitle = "Proceedings of the Twelfth Language Resources and Evaluation Conference",
+    month = may,
+    year = "2020",
+    address = "Marseille, France",
+    publisher = "European Language Resources Association",
+    url = "https://aclanthology.org/2020.lrec-1.503",
+    pages = "4089--4095",
+    abstract = "This paper describes the design, collection, orthographic transcription, and phonetic annotation of SpiCE, a new corpus of conversational Cantonese-English bilingual speech recorded in Vancouver, Canada. The corpus includes high-quality recordings of 34 early bilinguals in both English and Cantonese{---}to date, 27 have been recorded for a total of 19 hours of participant speech. Participants completed a sentence reading task, storyboard narration, and conversational interview in each language. Transcription and annotation for the corpus are currently underway. Transcripts produced with Google Cloud Speech-to-Text are available for all participants, and will be included in the initial SpiCE corpus release. Hand-corrected orthographic transcripts and force-aligned phonetic transcripts will be released periodically, and upon completion for all recordings, comprise the second release of the corpus. As an open-access language resource, SpiCE will promote bilingualism research for a typologically distinct pair of languages, of which Cantonese remains understudied despite there being millions of speakers around the world. The SpiCE corpus is especially well-suited for phonetic research on conversational speech, and enables researchers to study cross-language within-speaker phenomena for a diverse group of early Cantonese-English bilinguals. These are areas with few existing high-quality resources.",
+    language = "English",
+    ISBN = "979-10-95546-34-4",
+}
+@inproceedings{pan-2019-chinese,
+    title = "The {C}hinese/{E}nglish Political Interpreting Corpus ({CEPIC}): A New Electronic Resource for Translators and Interpreters",
+    author = "Pan, Jun",
+    booktitle = "Proceedings of the Human-Informed Translation and Interpreting Technology Workshop (HiT-IT 2019)",
+    month = sep,
+    year = "2019",
+    address = "Varna, Bulgaria",
+    publisher = "Incoma Ltd., Shoumen, Bulgaria",
+    url = "https://aclanthology.org/W19-8710",
+    doi = "10.26615/issn.2683-0078.2019_010",
+    pages = "82--88",
+    abstract = "The Chinese/English Political Interpreting Corpus (CEPIC) is a new electronic and open access resource developed for translators and interpreters, especially those working with political text types. Over 6 million word tokens in size, the online corpus consists of transcripts of Chinese (Cantonese {\&} Putonghua) / English political speeches and their translated and interpreted texts. It includes rich meta-data and is POS-tagged and annotated with prosodic and paralinguistic features that are of concern to spoken language and interpreting. The online platform of the CEPIC features main functions including Keyword Search, Word Collocation and Expanded Keyword in Context, which are illustrated in the paper. The CEPIC can shed light on online translation and interpreting corpora development in the future.",
+}
+@inproceedings{nguyen-etal-2019-isolating,
+    title = "Isolating the Effects of Modeling Recursive Structures: A Case Study in Pronunciation Prediction of {C}hinese Characters",
+    author = "Nguyen, Minh  and
+      Ngo, Gia H  and
+      Chen, Nancy",
+    booktitle = "Proceedings of the 2019 Workshop on Widening NLP",
+    month = aug,
+    year = "2019",
+    address = "Florence, Italy",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/W19-3631",
+    pages = "95--97",
+    abstract = "Finding that explicitly modeling structures leads to better generalization, we consider the task of predicting Cantonese pronunciations of logographs (Chinese characters) using logographs{'} recursive structures. This task is a suitable case study for two reasons. First, logographs{'} pronunciations depend on structures (i.e. the hierarchies of sub-units in logographs) Second, the quality of logographic structures is consistent since the structures are constructed automatically using a set of rules. Thus, this task is less affected by confounds such as varying quality between annotators. Empirical results show that modeling structures explicitly using treeLSTM outperforms LSTM baseline, reducing prediction error by 6.0{\%} relative.",
+}
+@inproceedings{sio-costa-2019-building,
+    title = "Building the {C}antonese {W}ordnet",
+    author = "Sio, Joanna Ut-Seong  and
+      Costa, Luis Morgado Da",
+    booktitle = "Proceedings of the 10th Global Wordnet Conference",
+    month = jul,
+    year = "2019",
+    address = "Wroclaw, Poland",
+    publisher = "Global Wordnet Association",
+    url = "https://aclanthology.org/2019.gwc-1.26",
+    pages = "206--215",
+    abstract = "This paper reports on the development of the Cantonese Wordnet, a new wordnet project based on Hong Kong Cantonese. It is built using the expansion approach, leveraging on the existing Chinese Open Wordnet, and the Princeton Wordnet{'}s semantic hierarchy. The main goal of our project was to produce a high quality, human-curated resource {--} and this paper reports on the initial efforts and steady progress of our building method. It is our belief that the lexical data made available by this wordnet, including Jyutping romanization, will be useful for a variety of future uses, including many language processing tasks and linguistic research on Cantonese and its interactions with other Chinese dialects.",
+}
+@inproceedings{klyueva-etal-2018-food,
+    title = "Food-Related Sentiment Analysis for {C}antonese",
+    author = "Klyueva, Natalia  and
+      Long, Yunfei  and
+      Huang, Chu-Ren  and
+      Lu, Qin",
+    booktitle = "Proceedings of the 32nd Pacific Asia Conference on Language, Information and Computation: 25th Joint Workshop on Linguistics and Language Processing",
+    month = "1{--}3 " # dec,
+    year = "2018",
+    address = "Hong Kong",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/Y18-2004",
+}
+@inproceedings{kwong-2018-non,
+    title = "The Non-deictic Use of Demonstratives in Conversations and Interpreted Speeches in Contemporary {H}ong {K}ong {C}antonese",
+    author = "Kwong, Oi Yee",
+    booktitle = "Proceedings of the 32nd Pacific Asia Conference on Language, Information and Computation",
+    month = "1{--}3 " # dec,
+    year = "2018",
+    address = "Hong Kong",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/Y18-1036",
+}
+@inproceedings{lee-wong-2018-epistemic,
+    title = "Epistemic Indefinites and Reportative Indefinites in {C}antonese",
+    author = "Lee, Tommy Tsz-Ming  and
+      Wong, Hok-Yuen",
+    booktitle = "Proceedings of the 32nd Pacific Asia Conference on Language, Information and Computation",
+    month = "1{--}3 " # dec,
+    year = "2018",
+    address = "Hong Kong",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/Y18-1039",
+}
+@inproceedings{li-etal-2018-perceptual,
+    title = "Perceptual evaluation of {M}andarin tone sandhi production by {C}antonese speakers before and after perceptual training",
+    author = "Li, Bei  and
+      Yang, Yike  and
+      Chen, Si",
+    booktitle = "Proceedings of the 32nd Pacific Asia Conference on Language, Information and Computation",
+    month = "1{--}3 " # dec,
+    year = "2018",
+    address = "Hong Kong",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/Y18-1041",
+}
+@inproceedings{liu-ning-2018-factors,
+    title = "Factors Affecting Accent of New and Similar Vowels in {H}ong {K}ong {C}antonese Pronounced by {U}rdu Speakers from Secondary School",
+    author = "Liu, Yi  and
+      Ning, Jinghong",
+    booktitle = "Proceedings of the 32nd Pacific Asia Conference on Language, Information and Computation",
+    month = "1{--}3 " # dec,
+    year = "2018",
+    address = "Hong Kong",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/Y18-1048",
+}
+@inproceedings{wong-etal-2018-facilitating,
+    title = "Facilitating and Blocking Conditions of Haplology: A comparative study of {H}ong {K}ong {C}antonese and {T}aiwan {M}andarin",
+    author = "Wong, Sam Yin  and
+      Chen, I-Hsuan  and
+      Huang, Chu-Ren",
+    booktitle = "Proceedings of the 32nd Pacific Asia Conference on Language, Information and Computation",
+    month = "1{--}3 " # dec,
+    year = "2018",
+    address = "Hong Kong",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/Y18-1084",
+}
+@inproceedings{wong-lee-2018-register,
+    title = "Register-sensitive Translation: a Case Study of {M}andarin and {C}antonese (Non-archival Extended Abstract)",
+    author = "Wong, Tak-sum  and
+      Lee, John",
+    booktitle = "Proceedings of the 13th Conference of the Association for Machine Translation in the {A}mericas (Volume 1: Research Track)",
+    month = mar,
+    year = "2018",
+    address = "Boston, MA",
+    publisher = "Association for Machine Translation in the Americas",
+    url = "https://aclanthology.org/W18-1809",
+    pages = "89--96",
+}
+@inproceedings{liesenfeld-2018-mycancor,
+    title = "{MYC}an{C}or: A Video Corpus of spoken {M}alaysian {C}antonese",
+    author = "Liesenfeld, Andreas",
+    booktitle = "Proceedings of the Eleventh International Conference on Language Resources and Evaluation ({LREC} 2018)",
+    month = may,
+    year = "2018",
+    address = "Miyazaki, Japan",
+    publisher = "European Language Resources Association (ELRA)",
+    url = "https://aclanthology.org/L18-1122",
+}
+@inproceedings{nguyen-etal-2018-multimodal,
+    title = "Multimodal neural pronunciation modeling for spoken languages with logographic origin",
+    author = "Nguyen, Minh  and
+      Ngo, Gia H.  and
+      Chen, Nancy",
+    booktitle = "Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing",
+    month = oct # "-" # nov,
+    year = "2018",
+    address = "Brussels, Belgium",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/D18-1320",
+    doi = "10.18653/v1/D18-1320",
+    pages = "2916--2922",
+    abstract = "Graphemes of most languages encode pronunciation, though some are more explicit than others. Languages like Spanish have a straightforward mapping between its graphemes and phonemes, while this mapping is more convoluted for languages like English. Spoken languages such as Cantonese present even more challenges in pronunciation modeling: (1) they do not have a standard written form, (2) the closest graphemic origins are logographic Han characters, of which only a subset of these logographic characters implicitly encodes pronunciation. In this work, we propose a multimodal approach to predict the pronunciation of Cantonese logographic characters, using neural networks with a geometric representation of logographs and pronunciation of cognates in historically related languages. The proposed framework improves performance by 18.1{\%} and 25.0{\%} respective to unimodal and multimodal baselines.",
+}
+@inproceedings{lan-2017-foreign,
+    title = "Foreign Influence and Sound Change: A Case Study of {C}antonese Alveolar Affricates",
+    author = "Lan, Yizhou",
+    booktitle = "Proceedings of the 31st Pacific Asia Conference on Language, Information and Computation",
+    month = nov,
+    year = "2017",
+    publisher = "The National University (Phillippines)",
+    url = "https://aclanthology.org/Y17-1023",
+    pages = "155--160",
+}
+@inproceedings{wong-etal-2017-quantitative,
+    title = "Quantitative Comparative Syntax on the {C}antonese-{M}andarin Parallel Dependency Treebank",
+    author = "Wong, Tak-sum  and
+      Gerdes, Kim  and
+      Leung, Herman  and
+      Lee, John",
+    booktitle = "Proceedings of the Fourth International Conference on Dependency Linguistics (Depling 2017)",
+    month = sep,
+    year = "2017",
+    address = "Pisa,Italy",
+    publisher = {Link{\"o}ping University Electronic Press},
+    url = "https://aclanthology.org/W17-6530",
+    pages = "266--275",
+}
+@inproceedings{yeh-etal-2017-chinese,
+    title = "{C}hinese Spelling Check based on N-gram and String Matching Algorithm",
+    author = "Yeh, Jui-Feng  and
+      Chang, Li-Ting  and
+      Liu, Chan-Yi  and
+      Hsu, Tsung-Wei",
+    booktitle = "Proceedings of the 4th Workshop on Natural Language Processing Techniques for Educational Applications ({NLPTEA} 2017)",
+    month = dec,
+    year = "2017",
+    address = "Taipei, Taiwan",
+    publisher = "Asian Federation of Natural Language Processing",
+    url = "https://aclanthology.org/W17-5906",
+    pages = "35--38",
+    abstract = "This paper presents a Chinese spelling check approach based on language models combined with string match algorithm to treat the problems resulted from the influence caused by Cantonese mother tone. N-grams first used to detecting the probability of sentence constructed by the writers, a string matching algorithm called Knuth-Morris-Pratt (KMP) Algorithm is used to detect and correct the error. According to the experimental results, the proposed approach can detect the error and provide the corresponding correction.",
+}
+@inproceedings{chen-etal-2016-clustering-based,
+    title = "Clustering-based Phonetic Projection in Mismatched Crowdsourcing Channels for Low-resourced {ASR}",
+    author = "Chen, Wenda  and
+      Hasegawa-Johnson, Mark  and
+      Chen, Nancy  and
+      Jyothi, Preethi  and
+      Varshney, Lav",
+    booktitle = "Proceedings of the 6th Workshop on South and Southeast {A}sian Natural Language Processing ({WSSANLP}2016)",
+    month = dec,
+    year = "2016",
+    address = "Osaka, Japan",
+    publisher = "The COLING 2016 Organizing Committee",
+    url = "https://aclanthology.org/W16-3714",
+    pages = "133--141",
+    abstract = "Acquiring labeled speech for low-resource languages is a difficult task in the absence of native speakers of the language. One solution to this problem involves collecting speech transcriptions from crowd workers who are foreign or non-native speakers of a given target language. From these mismatched transcriptions, one can derive probabilistic phone transcriptions that are defined over the set of all target language phones using a noisy channel model. This paper extends prior work on deriving probabilistic transcriptions (PTs) from mismatched transcriptions by 1) modelling multilingual channels and 2) introducing a clustering-based phonetic mapping technique to improve the quality of PTs. Mismatched crowdsourcing for multilingual channels has certain properties of projection mapping, e.g., it can be interpreted as a clustering based on singular value decomposition of the segment alignments. To this end, we explore the use of distinctive feature weights, lexical tone confusions, and a two-step clustering algorithm to learn projections of phoneme segments from mismatched multilingual transcriber languages to the target language. We evaluate our techniques using mismatched transcriptions for Cantonese speech acquired from native English and Mandarin speakers. We observe a 5-9{\%} relative reduction in phone error rate for the predicted Cantonese phone transcriptions using our proposed techniques compared with the previous PT method.",
+}
+@inproceedings{wong-etal-2016-syllable,
+    title = "Syllable based {DNN}-{HMM} {C}antonese Speech to Text System",
+    author = "Wong, Timothy  and
+      Li, Claire  and
+      Lam, Sam  and
+      Chiu, Billy  and
+      Lu, Qin  and
+      Li, Minglei  and
+      Xiong, Dan  and
+      Yu, Roy Shing  and
+      Ng, Vincent T.Y.",
+    booktitle = "Proceedings of the Tenth International Conference on Language Resources and Evaluation ({LREC}'16)",
+    month = may,
+    year = "2016",
+    address = "Portoro{\v{z}}, Slovenia",
+    publisher = "European Language Resources Association (ELRA)",
+    url = "https://aclanthology.org/L16-1610",
+    pages = "3856--3862",
+    abstract = "This paper reports our work on building up a Cantonese Speech-to-Text (STT) system with a syllable based acoustic model. This is a part of an effort in building a STT system to aid dyslexic students who have cognitive deficiency in writing skills but have no problem expressing their ideas through speech. For Cantonese speech recognition, the basic unit of acoustic models can either be the conventional Initial-Final (IF) syllables, or the Onset-Nucleus-Coda (ONC) syllables where finals are further split into nucleus and coda to reflect the intra-syllable variations in Cantonese. By using the Kaldi toolkit, our system is trained using the stochastic gradient descent optimization model with the aid of GPUs for the hybrid Deep Neural Network and Hidden Markov Model (DNN-HMM) with and without I-vector based speaker adaptive training technique. The input features of the same Gaussian Mixture Model with speaker adaptive training (GMM-SAT) to DNN are used in all cases. Experiments show that the ONC-based syllable acoustic modeling with I-vector based DNN-HMM achieves the best performance with the word error rate (WER) of 9.66{\%} and the real time factor (RTF) of 1.38812.",
+}
+@inproceedings{dong-etal-2016-ace,
+    title = "{ACE}: Automatic Colloquialism, Typographical and Orthographic Errors Detection for {C}hinese Language",
+    author = "Dong, Shichao  and
+      Fung, Gabriel Pui Cheong  and
+      Li, Binyang  and
+      Peng, Baolin  and
+      Liao, Ming  and
+      Zhu, Jia  and
+      Wong, Kam-fai",
+    booktitle = "Proceedings of {COLING} 2016, the 26th International Conference on Computational Linguistics: System Demonstrations",
+    month = dec,
+    year = "2016",
+    address = "Osaka, Japan",
+    publisher = "The COLING 2016 Organizing Committee",
+    url = "https://aclanthology.org/C16-2041",
+    pages = "194--197",
+    abstract = "We present a system called ACE for Automatic Colloquialism and Errors detection for written Chinese. ACE is based on the combination of N-gram model and rule-base model. Although it focuses on detecting colloquial Cantonese (a dialect of Chinese) at the current stage, it can be extended to detect other dialects. We chose Cantonese becauase it has many interesting properties, such as unique grammar system and huge colloquial terms, that turn the detection task extremely challenging. We conducted experiments using real data and synthetic data. The results indicated that ACE is highly reliable and effective.",
+}
+@inproceedings{kwong-2015-toward,
+    title = "Toward a Corpus of {C}antonese Verbal Comments and their Classification by Multi-dimensional Analysis",
+    author = "Kwong, Oi Yee",
+    booktitle = "Proceedings of the 29th Pacific Asia Conference on Language, Information and Computation: Posters",
+    month = oct,
+    year = "2015",
+    address = "Shanghai, China",
+    url = "https://aclanthology.org/Y15-2002",
+    pages = "10--18",
+}
+@inproceedings{lau-lee-2015-comparative,
+    title = "A Comparative Study on {M}andarin and {C}antonese Resultative Verb Compounds",
+    author = "Lau, Helena Yan Ping  and
+      Lee, Sophia Yat Mei",
+    booktitle = "Proceedings of the 29th Pacific Asia Conference on Language, Information and Computation",
+    month = oct,
+    year = "2015",
+    address = "Shanghai, China",
+    url = "https://aclanthology.org/Y15-1027",
+    pages = "231--239",
+}
+@inproceedings{hara-2014-semantics,
+    title = "Semantics and Pragmatics of {C}antonese Polar Questions: an inquisitive approach",
+    author = "Hara, Yurie",
+    booktitle = "Proceedings of the 28th Pacific Asia Conference on Language, Information and Computing",
+    month = dec,
+    year = "2014",
+    address = "Phuket,Thailand",
+    publisher = "Department of Linguistics, Chulalongkorn University",
+    url = "https://aclanthology.org/Y14-1069",
+    pages = "605--614",
+}
+@inproceedings{lam-2013-reduplication,
+    title = "Reduplication across Categories in {C}antonese",
+    author = "Lam, Charles",
+    booktitle = "Proceedings of the 27th Pacific Asia Conference on Language, Information, and Computation ({PACLIC} 27)",
+    month = nov,
+    year = "2013",
+    address = "Taipei, Taiwan",
+    publisher = "Department of English, National Chengchi University",
+    url = "https://aclanthology.org/Y13-1027",
+    pages = "277--286",
+}
+@inproceedings{zuo-etal-2012-multilingual,
+    title = "A Multilingual Natural Stress Emotion Database",
+    author = "Zuo, Xin  and
+      Li, Tian  and
+      Fung, Pascale",
+    booktitle = "Proceedings of the Eighth International Conference on Language Resources and Evaluation ({LREC}'12)",
+    month = may,
+    year = "2012",
+    address = "Istanbul, Turkey",
+    publisher = "European Language Resources Association (ELRA)",
+    url = "http://www.lrec-conf.org/proceedings/lrec2012/pdf/594_Paper.pdf",
+    pages = "1174--1178",
+    abstract = "In this paper, we describe an ongoing effort in collecting and annotating a multilingual speech database of natural stress emotion from university students. The goal is to detect natural stress emotions and study the stress expression differences in different languages, which may help psychologists in the future. We designed a common questionnaire of stress-inducing and non-stress-inducing questions in English, Mandarin and Cantonese and collected a first ever, multilingual corpus of natural stress emotion. All of the students are native speakers of the corresponding language. We asked native language speakers to annotate recordings according to the participants' self-label states and obtained a very good kappa inter labeler agreement. We carried out human perception tests where listeners who do not understand Chinese were asked to detect stress emotion from the Mandarin Chinese database. Compared to the annotation labels, these human perceived emotions are of low accuracy, which shows a great necessity for natural stress detection research.",
+}
+@inproceedings{macwhinney-2012-morphosyntactic,
+    title = "Morphosyntactic Analysis of the {CHILDES} and {T}alk{B}ank Corpora",
+    author = "MacWhinney, Brian",
+    booktitle = "Proceedings of the Eighth International Conference on Language Resources and Evaluation ({LREC}'12)",
+    month = may,
+    year = "2012",
+    address = "Istanbul, Turkey",
+    publisher = "European Language Resources Association (ELRA)",
+    url = "http://www.lrec-conf.org/proceedings/lrec2012/pdf/616_Paper.pdf",
+    pages = "2375--2380",
+    abstract = "This paper describes the construction and usage of the MOR and GRASP programs for part of speech tagging and syntactic dependency analysis of the corpora in the CHILDES and TalkBank databases. We have written MOR grammars for 11 languages and GRASP analyses for three. For English data, the MOR tagger reaches 98{\%} accuracy on adult corpora and 97{\%} accuracy on child language corpora. The paper discusses the construction of MOR lexicons with an emphasis on compounds and special conversational forms. The shape of rules for controlling allomorphy and morpheme concatenation are discussed. The analysis of bilingual corpora is illustrated in the context of the Cantonese-English bilingual corpora. Methods for preparing data for MOR analysis and for developing MOR grammars are discussed. We believe that recent computational work using this system is leading to significant advances in child language acquisition theory and theories of grammar identification more generally.",
+}
+@inproceedings{chow-2011-syntax,
+    title = "The Syntax-Semantics Interface of Resultative Constructions in {M}andarin {C}hinese and {C}antonese",
+    author = "Chow, Pui Lun",
+    booktitle = "Proceedings of the 25th Pacific Asia Conference on Language, Information and Computation",
+    month = dec,
+    year = "2011",
+    address = "Singapore",
+    publisher = "Institute of Digital Enhancement of Cognitive Processing, Waseda University",
+    url = "https://aclanthology.org/Y11-1009",
+    pages = "80--89",
+}
+@inproceedings{lee-2011-toward,
+    title = "Toward a Parallel Corpus of Spoken {C}antonese and Written {C}hinese",
+    author = "Lee, John",
+    booktitle = "Proceedings of 5th International Joint Conference on Natural Language Processing",
+    month = nov,
+    year = "2011",
+    address = "Chiang Mai, Thailand",
+    publisher = "Asian Federation of Natural Language Processing",
+    url = "https://aclanthology.org/I11-1174",
+    pages = "1462--1466",
+}
+@inproceedings{chan-etal-2009-automatic,
+    title = "Automatic Recognition of {C}antonese-{E}nglish Code-Mixing Speech",
+    author = "Chan, Joyce Y. C.  and
+      Cao, Houwei  and
+      Ching, P. C.  and
+      Lee, Tan",
+    booktitle = "International Journal of Computational Linguistics {\&} {C}hinese Language Processing, Volume 14, Number 3, September 2009",
+    month = sep,
+    year = "2009",
+    url = "https://aclanthology.org/O09-5003",
+}
+@inproceedings{ziegenhain-etal-2008-lc,
+    title = "{LC}-{STAR} {II}: Starring more Lexica",
+    author = "Ziegenhain, Ute  and
+      Fersoe, Hanne  and
+      van den Heuvel, Henk  and
+      Moreno, Asuncion",
+    booktitle = "Proceedings of the Sixth International Conference on Language Resources and Evaluation ({LREC}'08)",
+    month = may,
+    year = "2008",
+    address = "Marrakech, Morocco",
+    publisher = "European Language Resources Association (ELRA)",
+    url = "http://www.lrec-conf.org/proceedings/lrec2008/pdf/358_paper.pdf",
+    abstract = "LC-STAR II is a follow-up project of the EU funded project LC-STAR (Lexica and Corpora for Speech-to-Speech Translation Components, IST-2001-32216). LC-STAR II develops large lexica containing information for speech processing in ten languages targeting especially automatic speech recognition and text to speech synthesis but also other applications like speech-to-speech translation and tagging. The project follows by large the specifications developed within the scope of LC-STAR covering thirteen languages: Catalan, Finnish, German, Greek, Hebrew, Italian, Mandarin Chinese, Russian, Turkish, Slovenian, Spanish, Standard Arabic and US-English. The ten new LC-STAR II languages are: Brazilian-Portuguese, Cantonese, Czech, English-UK, French, Hindi, Polish, Portuguese, Slovak, and Urdu. The project started in 2006 with a lifetime of two years. The project is funded by a consortium, which includes Microsoft (USA), Nokia (Finland), NSC (Israel), Siemens (Germany) and Harmann/Becker (Germany). The project is coordinated by UPC (Spain) and validation is performed by SPEX (The Netherlands), and CST (Denmark). The developed language resources will be shared among partners.This paper presents a summary of the creation of word lists and lexica and an overview of adaptations of the specifications and conceptual representation model from LC-STAR to the new languages. The validation procedure will be presented too.",
+}
+@inproceedings{wu-etal-2006-structural,
+    title = "A Structural-Based Approach to {C}antonese-{E}nglish Machine Translation",
+    author = "Wu, Yan  and
+      Li, Xiukun  and
+      Lun, Caesar",
+    booktitle = "International Journal of Computational Linguistics {\&} {C}hinese Language Processing, Volume 11, Number 2, June 2006",
+    month = jun,
+    year = "2006",
+    url = "https://aclanthology.org/O06-3003",
+    pages = "137--158",
+}
+@inproceedings{zhu-lee-2006-using,
+    title = "Using Duration Information in {C}antonese Connected-Digit Recognition",
+    author = "Zhu, Yu  and
+      Lee, Tan",
+    booktitle = "International Journal of Computational Linguistics {\&} {C}hinese Language Processing, Volume 11, Number 1, March 2006: Special Issue on Human Computer Speech Processing",
+    month = mar,
+    year = "2006",
+    url = "https://aclanthology.org/O06-2001",
+    pages = "1--16",
+}
+@inproceedings{lee-etal-2006-modeling,
+    title = "Modeling {C}antonese Pronunciation Variations for Large-Vocabulary Continuous Speech Recognition",
+    author = "Lee, Tan  and
+      Kam, Patgi  and
+      Soong, Frank K.",
+    booktitle = "International Journal of Computational Linguistics {\&} {C}hinese Language Processing, Volume 11, Number 1, March 2006: Special Issue on Human Computer Speech Processing",
+    month = mar,
+    year = "2006",
+    url = "https://aclanthology.org/O06-2002",
+    pages = "17--36",
+}
+@inproceedings{tsou-etal-2006-court,
+    title = "Court Stenography-To-Text ({``}{STT}{''}) in {H}ong {K}ong: A Jurilinguistic Engineering Effort",
+    author = "Tsou, Benjamin K.  and
+      Lai, Tom B.Y.  and
+      Sin, K.K.  and
+      Cheung, Lawrence Y.L.",
+    booktitle = "Proceedings of the Fifth International Conference on Language Resources and Evaluation ({LREC}{'}06)",
+    month = may,
+    year = "2006",
+    address = "Genoa, Italy",
+    publisher = "European Language Resources Association (ELRA)",
+    url = "http://www.lrec-conf.org/proceedings/lrec2006/pdf/624_pdf.pdf",
+    abstract = "Implementation of legal bilingualism in Hong Kong after 1997 has necessitated the production of voluminous and extensive court proceedings and judgments in both Chinese and English. For the former, Cantonese, a dialect of Chinese, is the home language of more than 90{\%} of the population in Hong Kong and so used in the courts. To record speech in Cantonese verbatim, a Chinese Computer-Aided Transcription system has been developed. The transcription system converts stenographic codes into Chinese text, i.e. from phonetic to orthographic representation of the language. The main challenge lies in the resolution of the sever ambiguity resulting from homocode problems in the conversion process. Cantonese Chinese is typified by problematic homonymy, which presents serious challenges. The N-gram statistical model is employed to estimate the most probable character string of the input transcription codes. Domain-specific corpora have been compiled to support the statistical computation. To improve accuracy, scalable techniques such as domain-specific transcription and special encoding are used. Put together, these techniques deliver 96{\%} transcription accuracy.",
+}
+@inproceedings{wong-etal-2002-using,
+    title = "Using the Segmentation Corpus to Define an Inventory of Concatenative Units for {C}antonese Speech Synthesis",
+    author = "Wong, Wai Yi Peggy  and
+      Brew, Chris  and
+      Beckman, Mary E.  and
+      Chan, Shui-duen",
+    booktitle = "{COLING}-02: The First {SIGHAN} Workshop on {C}hinese Language Processing",
+    year = "2002",
+    url = "https://aclanthology.org/W02-1813",
+}
+@inproceedings{lo-etal-2001-design,
+    title = "Design, Compilation and Processing of {CUC}all: A Set of {C}antonese Spoken Language Corpora Collected Over Telephone Networks",
+    author = "Lo, W.K.  and
+      Ching, P.C.  and
+      Lee, Tan  and
+      Meng, Helen",
+    booktitle = "Proceedings of Research on Computational Linguistics Conference {XIV}",
+    month = aug,
+    year = "2001",
+    address = "Tainan, Taiwan",
+    publisher = "The Association for Computational Linguistics and Chinese Language Processing (ACLCLP)",
+    url = "https://aclanthology.org/O01-1010",
+    pages = "193--212",
+}
+@inproceedings{tsou-etal-2000-automatic,
+    title = "Automatic Conversion from Phonetic to Textual Representation of {C}antonese : The Case of {H}ong {K}ong Court Proceedings",
+    author = "Tsou, Benjamin K.  and
+      Sin, K.K.  and
+      Chan, Samuel W. K.  and
+      Lai, Tom B. Y.  and
+      Lun, Caesar  and
+      Ko, K. T.  and
+      Chan, Gary K. K.  and
+      Cheung, Lawrence Y. L.",
+    booktitle = "Proceedings of the 14th Pacific Asia Conference on Language, Information and Computation",
+    month = feb,
+    year = "2000",
+    address = "Waseda University International Conference Center, Tokyo, Japan",
+    publisher = "PACLIC 14 Organizing Committee",
+    url = "https://aclanthology.org/Y00-1031",
+    doi = "http://hdl.handle.net/2065/12165",
+    pages = "313--324",
+}
+@inproceedings{tsou-etal-2000-jurilinguistic,
+    title = "Jurilinguistic Engineering in {C}antonese {C}hinese: An N-gram-based Speech to Text Transcription System",
+    author = "T{'}sou, B. K.  and
+      Sin, K. K.  and
+      Chan, S. W. K.  and
+      Lai, T. B. Y.  and
+      Lun, C  and
+      Ko, K. T.  and
+      Chan, G. K. K.  and
+      Cheung, L. Y. L.",
+    booktitle = "{COLING} 2000 Volume 2: The 18th International Conference on Computational Linguistics",
+    year = "2000",
+    url = "https://aclanthology.org/C00-2170",
+}
+@inproceedings{wu-liu-1999-cantonese,
+    title = "A {C}antonese-{E}nglish machine translation system {P}oly{U}-{MT}-99",
+    author = "Wu, Yan  and
+      Liu, James",
+    booktitle = "Proceedings of Machine Translation Summit VII",
+    month = sep # " 13-17",
+    year = "1999",
+    address = "Singapore, Singapore",
+    url = "https://aclanthology.org/1999.mtsummit-1.71",
+    pages = "481--486",
+}
+@inproceedings{zhang-1998-dialect-mt,
+    title = "Dialect {MT}: A Case Study between {C}antonese and {M}andarin",
+    author = "Zhang, Xiaoheng",
+    booktitle = "36th Annual Meeting of the Association for Computational Linguistics and 17th International Conference on Computational Linguistics, Volume 2",
+    month = aug,
+    year = "1998",
+    address = "Montreal, Quebec, Canada",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/P98-2238",
+    doi = "10.3115/980691.980807",
+    pages = "1460--1464",
+}
+@inproceedings{zhang-1998-dialect,
+    title = "Dialect {MT}: A Case Study between {C}antonese and {M}andarin",
+    author = "Zhang, Xiaoheng",
+    booktitle = "{COLING} 1998 Volume 2: The 17th International Conference on Computational Linguistics",
+    year = "1998",
+    url = "https://aclanthology.org/C98-2233",
+}
