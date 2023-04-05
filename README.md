@@ -1,21 +1,23 @@
 # Cantonese_NLP
 
-# Benchmarks
+## Folder description
+
+### Benchmarks
 The benchmarks can be obtained via:
 To be uploaded.
 
-# Cantonese_NLPtasks
+### Cantonese_NLPtasks
 A pilot study of deep learning performance on four benchmarks
 
-# Corpora
+### Corpora
 The corpora can be obtained via:
 To be uploaded.
 
-# Gram_analysis
+### Gram_analysis
 N-gram comparison between Cantonese and Traditional Chinese sample corpora.
 
-# Multilingual_analysis
+### Multilingual_analysis
 The analysis of language uses in Hong Kong social media.
 
-# Pub_analysis
+### Pub_analysis
 Publication statistics
